@@ -1,9 +1,8 @@
-* --help
+## --help
 
+* Show command line options
 
-Show command line options
-
---nodb
+## --nodb
 
 
 Start mongo shell without connecting to a database.
