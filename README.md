@@ -4,33 +4,27 @@
 
 ## --nodb
 
+* Start mongo shell without connecting to a database.
 
-Start mongo shell without connecting to a database.
+## --shell
 
---shell
+* Used in conjunction with a JavaScript file (i.e. <file.js>) to continue in the mongo shell after running the JavaScript file.
 
+## help
 
-Used in conjunction with a JavaScript file (i.e. <file.js>) to continue in the mongo shell after running the JavaScript file.
+* Show help.
 
-help
+## db.help()
 
+* Show help for database methods.
 
-Show help.
-
-db.help()
-
-
-Show help for database methods.
-
-db.<collection>.help()
+## db.<collection>.help()
   
-  
-Show help on collection methods. The <collection> can be the name of an existing collection or a non-existing collection.
+* Show help on collection methods. The <collection> can be the name of an existing collection or a non-existing collection.
 
-show dbs
+## show dbs
   
-  
-Print a list of all databases on the server.
+* Print a list of all databases on the server.
 
 use <db>
   
